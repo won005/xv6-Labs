@@ -1,6 +1,6 @@
 // pipe 는 두 프로세스가 통신할 수 있게 하는 전달자
 // IPC(inter- process communication. 프로세스간 통신) 을 코드로 구현해보는 것
-// test
+// test1
 
 #include "kernel/types.h"
 #include "kernel/stat.h"
