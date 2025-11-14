@@ -18,8 +18,9 @@ argv [2] = world
 {
   int i;
 
-  for(i = 1; i < argc; i++){
-    write(1, argv[i], strlen(argv[i]));
+  for(i = 1; i < argc; i++){ //[0] 은 이름이니까 건너뜀
+    write(1, argv[i], strlen(argv[i])); // 1: stdout 출력, argv[i]출력할 문자열, strlen()문자열 길이
+    
     if(i + 1 < argc){
       write(1, " ", 1);
     } else {
